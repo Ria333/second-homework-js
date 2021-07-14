@@ -1,0 +1,32 @@
+/*.TextOfUserData img {
+    width: 390px;
+}
+.wrapOfProduct {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.product {
+    width: 20%;
+}
+.product-card .im2 img{
+    width: 300px;
+}*/
+.wrapOfUsers  {
+display: block;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1440px;
+    /*justify-content: space-evenly;
+    align-items: stretch;*/
+}
+.post-card   {
+    width: 280px;
+height: 80px;
+box-sizing: border-box;
+    }
+.post-card h3 p {
+    display: block;
+    justify-content: space-evenly;
+    align-items: center;
+}
