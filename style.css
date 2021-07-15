@@ -9,24 +9,32 @@
 .product {
     width: 20%;
 }
-.product-card .im2 img{
+.product-card img{
     width: 300px;
 }*/
-.wrapOfUsers  {
-display: block;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 1440px;
-    /*justify-content: space-evenly;
-    align-items: stretch;*/
+/*.wrapOfUsers  {
+display: flex;
+    flex-wrap: wrap;
+
 }
 .post-card   {
-    width: 280px;
-height: 80px;
+    width: 20%;}
+/*
 box-sizing: border-box;
-    }
-.post-card h3 p {
+    }*/
+/*.post-card h3 p {
     display: block;
     justify-content: space-evenly;
     align-items: center;
+}*/
+
+.wrapOfUser {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
+.users-box{
+    width: 50%;
+    box-sizing: border-box;}
+
+
