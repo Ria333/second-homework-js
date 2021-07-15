@@ -19,8 +19,7 @@ document.write('<ul>');
 for (let listOfItem of listOfItems) {
     document.write(`<li> ${listOfItem} </li>`);
 }
-document.write(`</ul>`);
-*/
+document.write(`</ul>`);*/
 
 
 /*Використовуючи данні з масиву, за допомоги document.write та циклу
@@ -105,26 +104,26 @@ let userDatas = [{
 
 
 for (let userData of userDatas) {
-    document.write(`<div class="TextOfUserData"> <h2> ${userData.name} ${userData.surname} ${userData.age}</h2> <p>${userData.info} </p> <img src="${userData.image}" alt="woman"> </div>`);
-    }*/
+    document.write(`<div class="TextOfUserData"> <h2> ${userData.name} ${userData.surname}. Age is - ${userData.age}</h2> <p>${userData.info} </p> <img src="${userData.image}" alt="woman"> </div>`);
+}
 
-/*		Використовуючи данні з масиву, за допомоги document.write та циклу
-            побудувати структуру по шаблону template3.1 Зробити адекватну стилізацію
-            Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон.
-            <div>
-    <div className="product-card">
-        <h3 className="product-title">TITLE. Price - PRICE</h3>
-        <img src="" alt="" className="product-image">
-    </div>
-    <!--
-                інші об'єкти з масиву
-                ...
-                ...
-                ...
-    -->
+/*	Використовуючи данні з масиву, за допомоги document.write та циклу
+        побудувати структуру по шаблону template3.1 Зробити адекватну стилізацію
+        Великими літерами прописанні властивості об'єкту які потрібно впровадити в шаблон.
+        <div>
+<div className="product-card">
+    <h3 className="product-title">TITLE. Price - PRICE</h3>
+    <img src="" alt="" className="product-image">
+</div>*/
+/*<!--
+            інші об'єкти з масиву
+            ...
+            ...
+            ...
+-->
 
 </div>
-                */
+            */
 /*let products = [
     {
         title: 'milk',
@@ -150,7 +149,7 @@ for (let userData of userDatas) {
 
 document.write (`<div class="wrapOfProduct">`)
 for (let product of products) {
-    document.write(`<div class="product-card"> <div class="product-title"> <h3> ${product.title} ${product.price} </h3> </div> <div class="im2"> <img src="${product.image}" alt="product"> </div> </div>`);
+    document.write(`<div className="product-card"> <div className="product-title"> <h3> ${product.title} price - ${product.price} </h3> </div> <div class="im2"> <img src="${product.image}" alt="product"> </div> </div>`);
 }*/
 
 
@@ -174,7 +173,7 @@ for (let product of products) {
 
        </div>
 * */
-let users =
+/*let users =
 [
     {
         userId: 1,
@@ -781,7 +780,7 @@ let users =
 document.write (`<div class="wrapOfUsers">`)
 for (let user of users) {
     document.write(`<div class="post-card"><h3> ${user.id} - ${user.title}</h3> <p>${user.body}</p> </div>`)
-}
+}*/
 
 
 
